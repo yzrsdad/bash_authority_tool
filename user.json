@@ -1,0 +1,179 @@
+{
+    "superuser": false,
+    "table": {
+        "/root/Real-ESRGAN-master/assets": {
+            "read": true,
+            "write": true,
+            "execute": false,
+            "own": true
+        },
+        "/root/Real-ESRGAN-master/command_log.txt": {
+            "read": true,
+            "write": true,
+            "execute": true,
+            "own": true
+        },
+        "/root/Real-ESRGAN-master": {
+            "read": true,
+            "write": true,
+            "execute": true,
+            "own": true
+        },
+        "/root/Real-ESRGAN-master/assets/realesrgan_logo_gi.png": {
+            "read": true,
+            "write": false,
+            "execute": false,
+            "own": false
+        },
+        "/root/Real-ESRGAN-master/assets/realesrgan_logo.png": {
+            "read": true,
+            "write": false,
+            "execute": false,
+            "own": false
+        },
+        "/root/Real-ESRGAN-master/docs/Training.md": {
+            "read": true,
+            "write": true,
+            "execute": false,
+            "own": true
+        },
+        "/root/Real-ESRGAN-master/docs/ncnn_conversion.md": {
+            "read": true,
+            "write": true,
+            "execute": false,
+            "own": true
+        },
+        "/root/Real-ESRGAN-master/experiments/pretrained_models/README.md": {
+            "read": true,
+            "write": false,
+            "execute": false,
+            "own": true
+        },
+        "/root/Real-ESRGAN-master/inputs/tree_alpha_16bit.png": {
+            "read": true,
+            "write": false,
+            "execute": false,
+            "own": false
+        },
+        "/root/Real-ESRGAN-master/inputs/wolf_gray.jpg": {
+            "read": true,
+            "write": false,
+            "execute": false,
+            "own": false
+        },
+        "/root/Real-ESRGAN-master/realesrgan/models/realesrgan_model.py": {
+            "read": true,
+            "write": true,
+            "execute": true,
+            "own": true
+        },
+        "/root/Real-ESRGAN-master/realesrgan/utils.py": {
+            "read": true,
+            "write": false,
+            "execute": true,
+            "own": true
+        },
+        "/root/Real-ESRGAN-master/realesrgan/version.py": {
+            "read": true,
+            "write": false,
+            "execute": true,
+            "own": true
+        },
+        "/root/Real-ESRGAN-master/scripts/pytorch2onnx.py": {
+            "read": true,
+            "write": true,
+            "execute": true,
+            "own": true
+        },
+        "/root/Real-ESRGAN-master/tests/test_discriminator_arch.py": {
+            "read": true,
+            "write": false,
+            "execute": true,
+            "own": true
+        },
+        "/root/Real-ESRGAN-master/tests/data/meta_info_gt.txt": {
+            "read": true,
+            "write": false,
+            "execute": false,
+            "own": false
+        },
+        "/root/Real-ESRGAN-master/venv": {
+            "read": true,
+            "write": true,
+            "execute": true,
+            "own": true
+        },
+        "/root/Real-ESRGAN-master/weights": {
+            "read": true,
+            "write": true,
+            "execute": false,
+            "own": true
+        },
+        "/root/Real-ESRGAN-master/assets/realesrgan_logo_ai.png": {
+            "read": true,
+            "write": false,
+            "execute": false,
+            "own": false
+        },
+        "/root/Real-ESRGAN-master/docs": {
+            "read": true,
+            "write": true,
+            "execute": false,
+            "own": true
+        },
+        "/root/Real-ESRGAN-master/docs/anime_comparisons_CN.md": {
+            "read": true,
+            "write": true,
+            "execute": false,
+            "own": true
+        },
+        "/root/Real-ESRGAN-master/experiments/pretrained_models": {
+            "read": true,
+            "write": true,
+            "execute": false,
+            "own": true
+        },
+        "/root/Real-ESRGAN-master/inputs/00003.png": {
+            "read": true,
+            "write": false,
+            "execute": false,
+            "own": false
+        },
+        "/root/Real-ESRGAN-master/inputs/video/onepiece_demo.mp4": {
+            "read": true,
+            "write": false,
+            "execute": false,
+            "own": false
+        },
+        "/root/Real-ESRGAN-master/realesrgan": {
+            "read": true,
+            "write": true,
+            "execute": true,
+            "own": true
+        },
+        "/root/Real-ESRGAN-master/realesrgan/archs/discriminator_arch.py": {
+            "read": true,
+            "write": true,
+            "execute": true,
+            "own": true
+        },
+        "/root/Real-ESRGAN-master/realesrgan/data/realesrgan_dataset.py": {
+            "read": true,
+            "write": true,
+            "execute": true,
+            "own": true
+        },
+        "/root/Real-ESRGAN-master/scripts/extract_subimages.py": {
+            "read": true,
+            "write": true,
+            "execute": true,
+            "own": true
+        },
+        "/root/Real-ESRGAN-master/tests/data/gt/baboon.png": {
+            "read": true,
+            "write": false,
+            "execute": false,
+            "own": false
+        }
+    }
+}

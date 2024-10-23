@@ -1,0 +1,484 @@
+[
+  {
+    "id": 1,
+    "user_name": "user",
+    "command": "chmod +x ./assets/realesrgan_logo_gi.png",
+    "expected_arguments": ["/root/Real-ESRGAN-master/assets/realesrgan_logo_gi.png"]
+  },
+  {
+     "id": 2,
+    "user_name": "user",
+    "command": "chmod +x ./scripts/pytorch2onnx.py",
+    "expected_arguments": []
+  },
+  {
+     "id": 3,
+    "user_name": "user",
+    "command": "chmod a+x ./realesrgan",
+    "expected_arguments": []
+  },
+  {
+     "id": 4,
+    "user_name": "user",
+    "command": "chmod g+w ./tests/data/meta_info_gt.txt",
+    "expected_arguments": ["/root/Real-ESRGAN-master/tests/data/meta_info_gt.txt"]
+  },
+  {
+     "id": 5,
+    "user_name": "user",
+    "command": "chmod +x ./assets/realesrgan_logo.png",
+    "expected_arguments": ["/root/Real-ESRGAN-master/assets/realesrgan_logo.png"]
+  },
+  {
+     "id": 6,
+    "user_name": "user",
+    "command": "chmod g+w ./docs/ncnn_conversion.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 7,
+    "user_name": "user",
+    "command": "chmod a+x ./venv",
+    "expected_arguments": []
+  },
+  {
+     "id": 8,
+    "user_name": "user",
+    "command": "chmod g+w ./experiments/pretrained_models/README.md",
+    "expected_arguments": ["/root/Real-ESRGAN-master/experiments/pretrained_models/README.md"]
+  },
+  {
+     "id": 9,
+    "user_name": "user",
+    "command": "find . -type f -name \"*.java\" | xargs tar rvf myfile.tar /root/Real-ESRGAN-master/realesrgan/models/realesrgan_model.py /root/Real-ESRGAN-master/realesrgan/utils.py /root/Real-ESRGAN-master/realesrgan/version.py /root/Real-ESRGAN-master/scripts/pytorch2onnx.py /root/Real-ESRGAN-master/tests/test_discriminator_arch.py /root/Real-ESRGAN-master/scripts/extract_subimages.py",
+    "expected_arguments": ["/root/Real-ESRGAN-master/myfile.tar","/root/Real-ESRGAN-master/realesrgan/models/realesrgan_model.py","/root/Real-ESRGAN-master/realesrgan/utils.py","/root/Real-ESRGAN-master/realesrgan/version.py"]
+  },
+  {
+     "id": 10,
+    "user_name": "user",
+    "command": "find . -name  '*.mp3' -mtime -180 -print0 | xargs -0 tar rvf music.tar",
+    "expected_arguments": ["/root/Real-ESRGAN-master/music.tar"]
+  },
+  {
+     "id": 11,
+    "user_name": "user",
+    "command": "ssh-keygen user@remote 'cat ./assets/realesrgan_logo_gi.png'",
+    "expected_arguments": ["/root/Real-ESRGAN-master/assets/realesrgan_logo_gi.png"]
+  },
+  {
+     "id": 12,
+    "user_name": "user",
+    "command": "cd ./assets",
+    "expected_arguments": []
+  },
+  {
+     "id": 13,
+    "user_name": "user",
+    "command": "scp ./realesrgan/ user@remote:/path/to/remote/folder",
+    "expected_arguments": ["user@remote:/path/to/remote/folder"]
+  },
+  {
+     "id": 14,
+    "user_name": "user",
+    "command": "rsync -av ./tests/data/meta_info_gt.txt user@remote:/path/to/destination",
+    "expected_arguments": ["/root/Real-ESRGAN-master/tests/data/meta_info_gt.txt","/root/Real-ESRGAN-master/path/to/destination"]
+  },
+  {
+     "id": 15,
+    "user_name": "user",
+    "command": "find ./assets/realesrgan_logo_gi.png",
+    "expected_arguments": []
+  },
+  {
+     "id": 16,
+    "user_name": "user",
+    "command": "wc ./scripts/pytorch2onnx.py",
+    "expected_arguments": []
+  },
+  {
+     "id": 17,
+    "user_name": "user",
+    "command": "sort ./realesrgan/",
+    "expected_arguments": []
+  },
+  {
+     "id": 18,
+    "user_name": "user",
+    "command": "readlink ./tests/data/meta_info_gt.txt",
+    "expected_arguments": []
+  },
+  {
+     "id": 19,
+    "user_name": "user",
+    "command": "cat ./assets/realesrgan_logo.png",
+    "expected_arguments": []
+  },
+  {
+     "id": 20,
+    "user_name": "user",
+    "command": "tac ./docs/ncnn_conversion.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 21,
+    "user_name": "user",
+    "command": "head ./venv",
+    "expected_arguments": []
+  },
+  {
+     "id": 22,
+    "user_name": "user",
+    "command": "tail ./experiments/pretrained_models/README.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 23,
+    "user_name": "user",
+    "command": "less ./assets/realesrgan_logo_gi.png",
+    "expected_arguments": []
+  },
+  {
+     "id": 24,
+    "user_name": "user",
+    "command": "more ./scripts/pytorch2onnx.py",
+    "expected_arguments": []
+  },
+  {
+     "id": 25,
+    "user_name": "user",
+    "command": "grep 'pattern' ./realesrgan/",
+    "expected_arguments": []
+  },
+  {
+     "id": 26,
+    "user_name": "user",
+    "command": "egrep 'pattern' ./tests/data/meta_info_gt.txt",
+    "expected_arguments": []
+  },
+  {
+     "id": 27,
+    "user_name": "user",
+    "command": "fgrep 'pattern' ./docs/ncnn_conversion.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 28,
+    "user_name": "user",
+    "command": "sed 's/old/new/' ./experiments/pretrained_models/README.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 29,
+    "user_name": "user",
+    "command": "cut -d' ' -f1 ./experiments/pretrained_models/README.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 30,
+    "user_name": "user",
+    "command": "paste ./assets/realesrgan_logo_gi.png ./scripts/pytorch2onnx.py",
+    "expected_arguments": []
+  },
+  {
+     "id": 31,
+    "user_name": "user",
+    "command": "chmod +x ./assets/realesrgan_logo_gi.png",
+    "expected_arguments": ["/root/Real-ESRGAN-master/assets/realesrgan_logo_gi.png"]
+  },
+  {
+     "id": 32,
+    "user_name": "user",
+    "command": "chmod g+w ./scripts/pytorch2onnx.py",
+    "expected_arguments": []
+  },
+  {
+     "id": 33,
+    "user_name": "user",
+    "command": "chown user ./realesrgan/",
+    "expected_ar46uments": ["/root/Real-ESRGAN-master/realesrgan"]
+  },
+  {
+     "id": 34,
+    "user_name": "user",
+    "command": "sudo chown root ./tests/data/meta_info_gt.txt",
+    "expected_arguments": ["/root/Real-ESRGAN-master/tests/data/meta_info_gt.txt"]
+  },
+  {
+     "id": 35,
+    "user_name": "user",
+    "command": "kill -9 1234",
+    "expected_arguments": ["/proc/1234"]
+  },
+  {
+     "id": 36,
+    "user_name": "user",
+    "command": "brew install ./docs/ncnn_conversion.md",
+    "expected_arguments": ["/root/Real-ESRGAN-master/docs/ncnn_conversion.md"]
+  },
+  {
+     "id": 37,
+    "user_name": "user",
+    "command": "mount ./experiments/pretrained_models/README.md",
+    "expected_arguments": ["/root/Real-ESRGAN-master/experiments/pretrained_models/README.md"]
+  },
+  {
+     "id": 38,
+    "user_name": "user",
+    "command": "umount ./assets/realesrgan_logo_gi.png",
+    "expected_arguments": ["/root/Real-ESRGAN-master/assets/realesrgan_logo_gi.png"]
+  },
+  {
+     "id": 39,
+    "user_name": "user",
+    "command": "rm -rf ./scripts/pytorch2onnx.py",
+    "expected_arguments": []
+  },
+  {
+     "id": 40,
+    "user_name": "user",
+    "command": "mv ./realesrgan/ ./destination/",
+    "expected_arguments": ["/root/Real-ESRGAN-master/destination"]
+  },
+
+   {
+      "id": 41,
+    "user_name": "user",
+    "command": "chmod +r ./docs/Training.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 42,
+    "user_name": "user",
+    "command": "cp ./realesrgan/models/realesrgan_model.py .",
+    "expected_arguments": []
+  },
+  {
+     "id": 43,
+    "user_name": "user",
+    "command": "mv ./inputs/tree_alpha_16bit.png /root",
+    "expected_arguments": ["/root/Real-ESRGAN-master/inputs/tree_alpha_16bit.png", "/root"]
+  },
+  {
+     "id": 44,
+    "user_name": "user",
+    "command": "rm ./inputs/wolf_gray.jpg",
+    "expected_arguments": ["/root/Real-ESRGAN-master/inputs/wolf_gray.jpg"]
+  },
+  {
+     "id": 45,
+    "user_name": "user",
+    "command": "ln -s ./scripts/pytorch2onnx.py ./scripts/symlink_to_onnx.py",
+    "expected_arguments": ["/root/Real-ESRGAN-master/scripts/pytorch2onnx.py", "/root/Real-ESRGAN-master/scripts/symlink_to_onnx.py"]
+  },
+  {
+     "id": 46,
+    "user_name": "user",
+    "command": "tar -czf assets_backup.tar.gz ./assets/",
+    "expected_arguments": []
+  },
+  {
+     "id": 47,
+    "user_name": "user",
+    "command": "gzip ./docs/Training.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 48,
+    "user_name": "user",
+    "command": "gunzip ./docs/Training.md.gz",
+    "expected_arguments": []
+  },
+  {
+     "id": 49,
+    "user_name": "user",
+    "command": "zip -r docs_backup.zip ./docs/",
+    "expected_arguments": []
+  },
+  {
+     "id": 50,
+    "user_name": "user",
+    "command": "unzip docs_backup.zip",
+    "expected_arguments": [""]
+  },
+  {
+     "id": 51,
+    "user_name": "user",
+    "command": "find ./ -name '*.md' -exec cp {} ./markdown_backup/ \\;",
+    "expected_arguments": []
+  },
+  {
+     "id": 52,
+    "user_name": "user",
+    "command": "grep -r 'def ' ./realesrgan/",
+    "expected_arguments": []
+  },
+  {
+     "id": 53,
+    "user_name": "user",
+    "command": "fgrep 'import ' ./scripts/pytorch2onnx.py",
+    "expected_arguments": []
+  },
+  {
+     "id": 54,
+    "user_name": "user",
+    "command": "egrep -i  ./logs/*.log",
+    "expected_arguments": ["/root/Real-ESRGAN-master"]
+  },
+  {
+     "id": 55,
+    "user_name": "user",
+    "command": "sed -i 's/old_string/new_string/g' ./docs/ncnn_conversion.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 56,
+    "user_name": "user",
+    "command": "sort -o sorted_readme.md ./docs/Training.md",
+    "expected_arguments": []
+  },
+
+  {
+     "id": 57,
+    "user_name": "user",
+    "command": "cut -d' ' -f1 ./docs/Training.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 58,
+    "user_name": "user",
+    "command": "paste ./docs/Training.md ./docs/ncnn_conversion.md",
+    "expected_arguments": []
+  },
+
+  {
+     "id": 59,
+    "user_name": "user",
+    "command": "head -n 10 ./docs/Training.md",
+    "expected_arguments": []
+  },
+
+
+  {
+     "id": 60,
+    "user_name": "user",
+    "command": "more ./docs/Training.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 61,
+    "user_name": "user",
+    "command": "less ./docs/ncnn_conversion.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 62,
+    "user_name": "user",
+    "command": "chmod 755 ./docs/Training.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 63,
+    "user_name": "user",
+    "command": "chmod 644 ./docs/Training.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 64,
+    "user_name": "user",
+    "command": "chown user ./docs/Training.md",
+    "expected_arguments": ["/root/Real-ESRGAN-master/docs/Training.md"]
+  },
+  {
+     "id": 65,
+    "user_name": "user",
+    "command": "chgrp staff ./docs/Training.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 66,
+    "user_name": "user",
+    "command": "cp ./docs/Training.md ./docs/Training_copy.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 67,
+    "user_name": "user",
+    "command": "mv ./docs/Training_copy.md ./docs/Training_backup.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 68,
+    "user_name": "user",
+    "command": "rm ./docs/Training_backup.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 69,
+    "user_name": "user",
+    "command": "touch ./docs/NewFile.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 70,
+    "user_name": "user",
+    "command": "ln -s ./docs/Training.md ./docs/Training_link.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 71,
+    "user_name": "user",
+    "command": "find ./ -type f -name '*.md' -exec ls -l {} +",
+    "expected_arguments": []
+  },
+  {
+     "id": 72,
+    "user_name": "user",
+    "command": "grep 'example' ./docs/Training.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 73,
+    "user_name": "user",
+    "command": "sed 's/old/new/g' ./docs/Training.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 74,
+    "user_name": "user",
+    "command": "sort ./docs/Training.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 75,
+    "user_name": "user",
+    "command": "tar -cvf backup.tar ./docs",
+    "expected_arguments": []
+  },
+  {
+     "id": 76,
+    "user_name": "user",
+    "command": "tar -xvf backup.tar",
+    "expected_arguments": []
+  },
+  {
+     "id": 77,
+    "user_name": "user",
+    "command": "gzip ./docs/Training.md",
+    "expected_arguments": []
+  },
+  {
+     "id": 78,
+    "user_name": "user",
+    "command": "gunzip ./docs/Training.md.gz",
+    "expected_arguments": []
+  },
+  {
+     "id": 79,
+    "user_name": "user",
+    "command": "bzip2 ./docs/Training.md",
+    "expected_arguments": []
+  }
+
+]
+
+
