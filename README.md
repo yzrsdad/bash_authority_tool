@@ -19,3 +19,14 @@ python3 safe_execute.py
 
 ## **tool**
 里面包含了一个优化过后的htmlTestRunner,用于多测试用例可视化测试报告生成
+
+
+
+## **test_bash**
+自动化测试脚本
+```
+python3 test_bash.py
+```
+
+## **test_command**
+测试用例
