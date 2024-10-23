@@ -1,0 +1,2 @@
+# bash_authority_tool
+一个针对bash指令的静态分析器，拟用于解析大模型生成bash中涉及到的权限越界问题
